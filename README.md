@@ -37,15 +37,16 @@ config :encrypted_field, encryption_key: {{generated_encryption_key}}
 
 Use de `EncryptedField` instead of the normal `:string` type in your context module
 
-*Before*
+**Before**
 ```elixir
 use Ecto.Schema
 
 schema "some_schema" do
     field :secret_field, :string
 end
+```
 
-*After*
+**After**
 ```elixir
 use Ecto.Schema
 
