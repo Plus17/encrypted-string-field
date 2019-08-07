@@ -29,7 +29,7 @@ defmodule AES do
   # Retorna la llave para cifrar y descifrar
   @spec get_key() :: binary
   defp get_key() do
-    base64_key = Application.get_env(:encrypted_field, :encryption_key)
+    base64_key = Application.get_env(:encrypted_string_field, :encryption_key)
     :base64.decode(base64_key)
   end
 

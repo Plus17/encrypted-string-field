@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :encrypted_field, key: :value
+#     config :encrypted_string_field, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:encrypted_field, :key)
+#     Application.get_env(:encrypted_string_field, :key)
 #
 # You can also configure a third-party app:
 #
@@ -29,4 +29,4 @@ use Mix.Config
 #
 # import_config "#{Mix.env()}.exs"
 
-config :encrypted_field, encryption_key: System.get_env("ENCRIPTION_KEY")
+config :encrypted_string_field, encryption_key: System.get_env("ENCRIPTION_KEY")
