@@ -55,9 +55,8 @@ schema "some_schema" do
 end
 ```
 
-reference: https://github.com/dwyl/phoenix-ecto-encryption-example#how-to-generate-aes-encryption-keys
+Reference: https://github.com/dwyl/phoenix-ecto-encryption-example
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/encrypted_field](https://hexdocs.pm/encrypted_field).
-
