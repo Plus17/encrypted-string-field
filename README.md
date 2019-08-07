@@ -27,7 +27,7 @@ Open iex and paste the following line
 
 ### Config
 
-Add the next line in your enviroment config file
+Add the next line in your environment config file (remember to use environment variables):
 
 ```elixir
 config :encrypted_field, encryption_key: {{generated_encryption_key}}
